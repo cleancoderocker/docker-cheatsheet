@@ -15,6 +15,13 @@ docker rm $(docker ps -a -q)
 docker exec -it <CONTAINER_ID_OR_NAME> bash
 ```
 
+## Images
+### List images starting with a prefix
+
+```
+docker images --filter 'reference=<PREFIX>*'
+```
+
 ## Volumes
 
 ### List all volumes (including host paths) for a container
