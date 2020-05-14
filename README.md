@@ -20,6 +20,7 @@ docker exec -it <CONTAINER_ID_OR_NAME> bash
 
 ```
 docker images --filter 'reference=<PREFIX>*'
+docker images --filter 'reference=<PREFIX>/*'
 ```
 
 ## Volumes
