@@ -1,4 +1,4 @@
-# Docker Cheat Sheet
+# 🐳 Docker Cheat Sheet
 Useful Docker commands and snippets
 
 ## Table of Contents
@@ -7,7 +7,7 @@ Useful Docker commands and snippets
 * [Images](#images)
 * [Volumes](#volumes)
 
-## Containers
+## 🐳 Containers
 
 ### Stop and remove all containers
 
@@ -26,7 +26,7 @@ docker logs <CONTAINER_ID_OR_NAME>
 docker exec -it <CONTAINER_ID_OR_NAME> bash
 ```
 
-## Images
+## 🐳 Images
 ### List images starting with a prefix
 
 ```
@@ -34,7 +34,7 @@ docker images --filter 'reference=<PREFIX>*'
 docker images --filter 'reference=<PREFIX>/*'
 ```
 
-## Volumes
+## 🐳 Volumes
 
 ### List all volumes (including host paths) for a container
 
