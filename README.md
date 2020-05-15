@@ -1,6 +1,12 @@
 # Docker Cheat Sheet
 Useful Docker commands and snippets
 
+## Table of Contents
+
+* [Containers](#containers)
+* [Images](#images)
+* [Volumes](#volumes)
+
 ## Containers
 
 ### Stop and remove all containers
