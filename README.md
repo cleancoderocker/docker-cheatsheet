@@ -10,6 +10,11 @@ docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 ```
 
+### Print out the logs of a container
+```
+docker logs <CONTAINER_ID_OR_NAME>
+```
+
 ### Bash into a container
 ```
 docker exec -it <CONTAINER_ID_OR_NAME> bash
