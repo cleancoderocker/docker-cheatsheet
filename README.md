@@ -1,4 +1,4 @@
-# docker-cheatsheet
+# Docker Cheat Sheet
 Useful Docker commands and snippets
 
 ## Containers
