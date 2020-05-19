@@ -19,6 +19,7 @@ docker rm $(docker ps -a -q)
 ### Print out the logs of a container
 ```
 docker logs <CONTAINER_ID_OR_NAME>
+docker logs -f --tail 10 <CONTAINER_ID_OR_NAME>
 ```
 
 ### Bash into a container
